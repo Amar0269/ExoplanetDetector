@@ -1,0 +1,19 @@
+# config.py
+
+from pathlib import Path
+
+TIME_COL = "TIME"
+PDCSAP_FLUX_COL = "PDCSAP_FLUX"
+PDCSAP_FLUX_ERR_COL = "PDCSAP_FLUX_ERR"
+QUALITY_COL = "QUALITY"
+
+VALID_QUALITY = 0
+
+DETREND_METHOD = "biweight"
+WINDOW_LENGTH = 0.5
+
+FIG_SIZE = (10, 5)
+MARKER_SIZE = 2
+
+PROCESSED_DATA_DIR = Path("data/processed")
+DETRENDED_DATA_DIR = Path("data/detrended")

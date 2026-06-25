@@ -1,0 +1,18 @@
+__pycache__/
+*.pyc
+.DS_Store
+.vscode/
+.ipynb_checkpoints/
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Generated data
+data/processed/*
+data/detrended/*
+
+# Keep folder structure
+!data/processed/.gitkeep
+!data/detrended/.gitkeep
