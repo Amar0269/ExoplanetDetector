@@ -12,7 +12,22 @@ env/
 # Generated data
 data/processed/*
 data/detrended/*
+data/raw/*
 
 # Keep folder structure
 !data/processed/.gitkeep
 !data/detrended/.gitkeep
+!data/raw/.gitkeep
+
+# Model artifacts
+model/*.pth
+model/*.keras
+model/*.pkl
+model/*.json
+
+# Results
+results/figures/*
+results/*.csv
+results/*.png
+!results/.gitkeep
+!results/figures/.gitkeep
