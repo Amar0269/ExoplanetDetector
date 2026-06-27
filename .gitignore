@@ -9,11 +9,6 @@ __pycache__/
 venv/
 env/
 
-# Generated data
-data/processed/*
-data/detrended/*
-data/raw/*
-
 # Keep folder structure
 !data/processed/.gitkeep
 !data/detrended/.gitkeep
